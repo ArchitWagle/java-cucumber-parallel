@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" verbose="1" data-provider-thread-count="4">
+    <test name="TestSafari">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="parallel.RunParallel">
+            </class>
+        </classes>
+    </test>
+</suite>
